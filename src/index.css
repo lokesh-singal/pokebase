@@ -111,6 +111,8 @@ figure {
 }
 
 .pokemon-name {
+  position: relative;
+  z-index: 1;
   font-size: 1.5rem;
   text-align: center;
   color: #000;
@@ -144,19 +146,19 @@ figure {
   align-items: end;
 
   & p {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
   }
 }
 
 span {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: 700;
 }
 
 @media (max-width:780px) {
   ul {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    margin: 1rem 1rem 2rem;
+    margin: 1rem 0.6rem 2rem;
     gap: 0.8rem;
   }
 
@@ -176,7 +178,7 @@ span {
 
   .pokemon-name {
     font-size: 1.4rem;
-    margin-top: 0rem;
+    margin-top: 1rem;
   }
 
   .pokemon-highlight {
