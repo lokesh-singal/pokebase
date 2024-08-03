@@ -164,13 +164,11 @@ span {
     }
   }
 
-<<<<<<< HEAD
+
   input {
     width: 16rem;
   }
 
-=======
->>>>>>> 78a95345da778e0a787b4ae71a0a148ec6462d25
   ul {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     margin: 1rem 0.6rem 2rem;
