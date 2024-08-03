@@ -164,6 +164,10 @@ span {
     }
   }
 
+  input {
+    width: 16rem;
+  }
+
   ul {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     margin: 1rem 0.6rem 2rem;
