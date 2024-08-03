@@ -156,6 +156,14 @@ span {
 }
 
 @media (max-width:780px) {
+  header {
+    margin: 2rem 0;
+
+    & h1 {
+      font-size: 2.2rem;
+    }
+  }
+
   ul {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     margin: 1rem 0.6rem 2rem;
@@ -182,12 +190,16 @@ span {
   }
 
   .pokemon-highlight {
-    margin: 0.9rem 0;
+    margin: 0.4rem 0;
+
+    & p {
+      font-size: 0.8rem;
+    }
   }
 
   .grid-three-cols {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.9rem;
+    gap: 0.4rem;
     margin: 1rem 0;
 
     & p,
